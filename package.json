@@ -4,7 +4,7 @@
   "private": true,
   "author": "JackChen <278910933@qq.com>",
   "engines": {
-    "node": "14.19.0"
+    "node": "14.19.0",
     "npm": "8.5.5"
   },
   "scripts": {
