@@ -6,7 +6,7 @@ module.exports = {
   productionSourceMap: false,
   lintOnSave: false,
   devServer: {
-    port: 8082,
+    port: process.env.PORT,
     proxy: {
       '/api': {
         target: 'http://106.55.168.13:8082',
